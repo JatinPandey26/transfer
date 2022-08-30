@@ -7,6 +7,9 @@ module.exports = {
         Abel: [ 'Abel',' sans-serif'],
       },
     },
+
   },
-  plugins: [],
+  plugins: [
+    require('tw-elements/dist/plugin')
+  ]
 }
